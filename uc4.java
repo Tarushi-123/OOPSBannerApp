@@ -19,8 +19,8 @@ public class uc4 {
                 " *****  ", " *****  ", "*       ", " *****  ");
 
         // Print banner using loop
-        for (String line : banner) {
-            System.out.println(line);
+        for (int i = 0; i < banner.length; i++) {
+            System.out.println(banner[i]);
+            } 
         }
     }
-}
