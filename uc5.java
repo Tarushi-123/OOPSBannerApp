@@ -2,6 +2,8 @@ public class uc5 {
     public static void main(String[] args) {
 
                 String[] banner = {String.join(" ",
+
+        String[] banner = {String.join(" ",
                 " *****  ", " *****  ", " ****** ", " *****  "),
                 String.join(" ",
                 "*     * ", "*     * ", "*     * ", "*     * "),
@@ -20,6 +22,10 @@ public class uc5 {
                  
             for (String line : banner) {
                        System.out.println(line);
+
+
+        for (String line : banner) {
+            System.out.println(line);
         }
     }
 }
